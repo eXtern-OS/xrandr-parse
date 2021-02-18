@@ -1,6 +1,6 @@
 # xrandr-parse
 
-parse the output of the `xrandr` command
+Forked xrandr-parse and fixed to include supported refresh rates, preferred modes and selected modes. Parses the output of the `xrandr` command
 
 # example
 
@@ -44,59 +44,125 @@ and the parsed query was:
       {
         "width": "1366",
         "height": "768",
-        "rate": 60
+        "rate": 60,
+        "isSelected": true,
+        "refreshRates": [
+          "60.06",
+          "50.0"
+        ],
+        "isPreffered": true
       },
       {
         "width": "1360",
         "height": "768",
-        "rate": 60
+        "rate": 60,
+        "isSelected": false,
+        "refreshRates": [
+          "60.06",
+          "50.0"
+        ],
+        "isPreffered": false
       },
       {
         "width": "1280",
         "height": "768",
-        "rate": 60
+        "rate": 60,
+        "isSelected": false,
+        "refreshRates": [
+          "60.06",
+          "50.0"
+        ],
+        "isPreffered": false
       },
       {
         "width": "1280",
         "height": "720",
-        "rate": 60
+        "rate": 60,
+        "isSelected": false,
+        "refreshRates": [
+          "60.06",
+          "50.0"
+        ],
+        "isPreffered": false
       },
       {
         "width": "1024",
         "height": "768",
-        "rate": 60
+        "rate": 60,
+        "isSelected": false,
+        "refreshRates": [
+          "60.06",
+          "50.0"
+        ],
+        "isPreffered": false
       },
       {
         "width": "1024",
         "height": "600",
-        "rate": 60
+        "rate": 60,
+        "isSelected": false,
+        "refreshRates": [
+          "60.06",
+          "50.0"
+        ],
+        "isPreffered": false
       },
       {
         "width": "800",
         "height": "600",
-        "rate": 60
+        "rate": 60,
+        "isSelected": false,
+        "refreshRates": [
+          "60.06",
+          "50.0"
+        ],
+        "isPreffered": false
       },
       {
         "width": "800",
         "height": "480",
-        "rate": 60
+        "rate": 60,
+        "isSelected": false,
+        "refreshRates": [
+          "60.06",
+          "50.0"
+        ],
+        "isPreffered": false
       },
       {
         "width": "640",
         "height": "480",
-        "rate": 60
+        "rate": 60,
+        "isSelected": false,
+        "refreshRates": [
+          "60.06",
+          "50.0"
+        ],
+        "isPreffered": false
       }
     ],
     "index": 0,
     "native": {
       "width": "1366",
       "height": "768",
-      "rate": 60
+      "rate": 60,
+        "isSelected": false,
+        "refreshRates": [
+          "60.06",
+          "50.0"
+        ],
+        "isPreffered": false
     },
     "current": {
       "width": "1366",
       "height": "768",
-      "rate": 60
+      "rate": 60,
+        "isSelected": false,
+        "refreshRates": [
+          "60.06",
+          "50.0"
+        ],
+        "isPreffered": false
     }
   },
   "DFP1": {
