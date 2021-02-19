@@ -38,7 +38,7 @@ module.exports = function (src) {
                 width: m[1],
                 height: m[2],
                 rate: parseFloat(m[3]),
-                isSelected: m[4] == "*",
+                isSelected: line.indexOf("*") != -1,
                 refreshRates:  k,
                 isPreffered:  m[5] == "+"
             };
